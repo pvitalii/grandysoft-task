@@ -1,0 +1,24 @@
+{
+    "development": {
+        "username": "postgres",
+        "password": "root1234",
+        "database": "grandysoft_task",
+        "host": "127.0.0.1",
+        "dialect": "postgres",
+        "logging": false
+    },
+    "production": {
+        "username": "szogdhgdgoczol",
+        "password": "ecb05fcdcaf1f684f3b62d6df7d3580736cbaed4e4fff365ba6d81c0a75b1969",
+        "database": "d1hh0iteb8nm61",
+        "host": "ec2-52-30-75-37.eu-west-1.compute.amazonaws.com",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+            }
+        },
+        "logging": false
+    }
+}
