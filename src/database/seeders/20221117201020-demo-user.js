@@ -57,6 +57,7 @@ module.exports = {
         await queryInterface.bulkInsert('Followings', folllowings);
     },
     async down(queryInterface, Sequelize) {
+        await queryInterface.bulkDelete('Followings', null);
         await queryInterface.bulkDelete('Users', null);
     },
 };
